@@ -28,6 +28,6 @@ function addMoo()
 {
 var text = document.getElementById("inputText");
 text.style.textTransform = "uppercase";
-text.value = text.value.split(".").join("-Moo.");
+text.value = text.value.split(".").join("-Moo");
 alert("MOOs added after every sentence indicated by a period (.)")
 }
