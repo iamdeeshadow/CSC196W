@@ -1,2 +1,2 @@
-# fluffy-potato
-CSC 196W
+#CSC196W
+Nue Khang repo for CSC196W
