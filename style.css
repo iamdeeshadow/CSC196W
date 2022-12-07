@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	background: white;
+}
+
+header {
+  background: #CFF3FF;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: black;
+  font-size: 16px;
+  position: center;
+  width: 150px;
+  display: block;
+  padding: 20px;
+}
+
+nav a:hover {
+  background: white;
+  transition: 0.3s;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}

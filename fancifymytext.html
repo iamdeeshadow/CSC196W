@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+    </head>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="assignment 2a.html">Assignement 2a</a></li>
+                    <li><a href="fancifymytext.html">Assignement 4</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+		<script src="fancifymytext.js"></script>
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		
+
+		<!-- Your UI controls go here -->	
+		<div class="container">
+			<fieldset>
+				<legend>Text</legend>
+				<textarea id="inputText" type="text" rows="4" cols="30" placeholder="Enter text"></textarea>
+			</fieldset>
+
+			<fieldset>
+				<legend>Fancify</legend>
+				<button type="button" onclick="bigger()">Bigger!</button>
+				<input type="radio" id="fancyschmancy" name="fancify" onchange="fancySchmancy()">
+				<label for="fancyschmancy">FancySchmancy</label>
+				<input type="radio" id="boringbetty" name="fancify" onchange="boringBetty()">
+				<label for="boringbetty">BoringBetty</label>
+				<button type="button" onclick="addMoo()">Moo</button>
+			</fieldset>
+		</div>
+		
+	</body>
+</html>
